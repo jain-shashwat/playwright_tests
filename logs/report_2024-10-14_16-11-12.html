@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report_2024-10-14_16-11-12.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report_2024-10-14_16-11-12.html</h1>
+    <p>Report generated on 14-Oct-2024 at 16:17:55 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">23 tests took 00:06:42.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" disabled/>
+            <span class="failed">0 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">23 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.11.4&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.22631-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.3&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;Faker&#34;: &#34;30.3.0&#34;, &#34;asyncio&#34;: &#34;0.24.0&#34;, &#34;base-url&#34;: &#34;2.1.0&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;playwright&#34;: &#34;0.5.2&#34;}, &#34;Base URL&#34;: &#34;&#34;}, &#34;tests&#34;: {&#34;tests/test_complete_api_testing.py::TestUserAPI::test_get_user_profile[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_complete_api_testing.py::TestUserAPI::test_get_user_profile[chromium]&#34;, &#34;duration&#34;: &#34;00:00:04&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_complete_api_testing.py::TestUserAPI::test_get_user_profile[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:04&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:11:15 INFO    New User generate &amp;gt;&amp;gt;&amp;gt; {&amp;#x27;name&amp;#x27;: &amp;#x27;Jeremy Lucas&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jacob86@example.org&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;*^9YnVnFbH&amp;#x27;}\n2024-10-14 16:11:16 INFO    POST request Successful\n2024-10-14 16:11:16 INFO    POST /users/register response:{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 201, &amp;#x27;message&amp;#x27;: &amp;#x27;User account created successfully&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf53fa27c690158be6645&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Jeremy Lucas&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jacob86@example.org&amp;#x27;}}\n2024-10-14 16:11:16 INFO    Login Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Login successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf53fa27c690158be6645&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Jeremy Lucas&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jacob86@example.org&amp;#x27;, &amp;#x27;token&amp;#x27;: &amp;#x27;535bd5f2594c4248917db76ea98348756370210621b44f63a90a14d49eace9c5&amp;#x27;}}\n2024-10-14 16:11:17 INFO    Get Profile Request Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Profile successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf53fa27c690158be6645&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Jeremy Lucas&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jacob86@example.org&amp;#x27;}}\n\n&#34;}], &#34;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_info[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_info[chromium]&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_info[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:11:17 INFO    New User generate &amp;gt;&amp;gt;&amp;gt; {&amp;#x27;name&amp;#x27;: &amp;#x27;Dennis Williams&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jameslewis@example.com&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;rRQ@CpVs^0&amp;#x27;}\n2024-10-14 16:11:17 INFO    POST request Successful\n2024-10-14 16:11:17 INFO    POST /users/register response:{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 201, &amp;#x27;message&amp;#x27;: &amp;#x27;User account created successfully&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf541a27c690158be664e&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Dennis Williams&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jameslewis@example.com&amp;#x27;}}\n2024-10-14 16:11:18 INFO    Login Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Login successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf541a27c690158be664e&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Dennis Williams&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jameslewis@example.com&amp;#x27;, &amp;#x27;token&amp;#x27;: &amp;#x27;2a2bcd9545a4451cbbff11528698ac463d744865b886439780e9dd12ef67e4cb&amp;#x27;}}\n2024-10-14 16:11:18 INFO    Update Profile Request Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Profile updated successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf541a27c690158be664e&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;shaya&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;jameslewis@example.com&amp;#x27;, &amp;#x27;phone&amp;#x27;: &amp;#x27;6628966694&amp;#x27;, &amp;#x27;company&amp;#x27;: &amp;#x27;&amp;#x27;}}\n\n&#34;}], &#34;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_password[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_password[chromium]&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_complete_api_testing.py::TestUserAPI::test_update_the_profile_password[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:11:18 INFO    New User generate &amp;gt;&amp;gt;&amp;gt; {&amp;#x27;name&amp;#x27;: &amp;#x27;Danielle Hamilton MD&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;wthompson@example.net&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;!o(9eEIq!0&amp;#x27;}\n2024-10-14 16:11:19 INFO    POST request Successful\n2024-10-14 16:11:19 INFO    POST /users/register response:{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 201, &amp;#x27;message&amp;#x27;: &amp;#x27;User account created successfully&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf543a27c690158be6658&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Danielle Hamilton MD&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;wthompson@example.net&amp;#x27;}}\n2024-10-14 16:11:19 INFO    Login Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Login successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf543a27c690158be6658&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Danielle Hamilton MD&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;wthompson@example.net&amp;#x27;, &amp;#x27;token&amp;#x27;: &amp;#x27;9637f8f834c24edba4a7544fe43a6da2fa08d66d3fd64a06886fd84033b47636&amp;#x27;}}\n2024-10-14 16:11:20 INFO    Updated Profile Password Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;The password was successfully updated&amp;#x27;}\n\n&#34;}], &#34;tests/test_complete_api_testing.py::TestUserAPI::test_logout_the_user[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_complete_api_testing.py::TestUserAPI::test_logout_the_user[chromium]&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_complete_api_testing.py::TestUserAPI::test_logout_the_user[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:11:20 INFO    New User generate &amp;gt;&amp;gt;&amp;gt; {&amp;#x27;name&amp;#x27;: &amp;#x27;Robert Horne&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;fisherandrew@example.org&amp;#x27;, &amp;#x27;password&amp;#x27;: &amp;#x27;l0SW4+x##d&amp;#x27;}\n2024-10-14 16:11:21 INFO    POST request Successful\n2024-10-14 16:11:21 INFO    POST /users/register response:{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 201, &amp;#x27;message&amp;#x27;: &amp;#x27;User account created successfully&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf544a27c690158be6662&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Robert Horne&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;fisherandrew@example.org&amp;#x27;}}\n2024-10-14 16:11:21 INFO    Login Successful!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;Login successful&amp;#x27;, &amp;#x27;data&amp;#x27;: {&amp;#x27;id&amp;#x27;: &amp;#x27;670cf544a27c690158be6662&amp;#x27;, &amp;#x27;name&amp;#x27;: &amp;#x27;Robert Horne&amp;#x27;, &amp;#x27;email&amp;#x27;: &amp;#x27;fisherandrew@example.org&amp;#x27;, &amp;#x27;token&amp;#x27;: &amp;#x27;295d7bb4e77347c5835882e669acd68a99daf26ae9d54016aa5843d9c2b64b9b&amp;#x27;}}\n2024-10-14 16:11:22 INFO    Logout from the Profile Successfully!!\n RESPONSE RETURNED FROM SERVER \n{&amp;#x27;success&amp;#x27;: True, &amp;#x27;status&amp;#x27;: 200, &amp;#x27;message&amp;#x27;: &amp;#x27;User has been successfully logged out&amp;#x27;}\n\n&#34;}], &#34;tests/test_custom_fixture.py::TestCustomFixture::test_using_hindi_lan_browser_context[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_custom_fixture.py::TestCustomFixture::test_using_hindi_lan_browser_context[chromium]&#34;, &#34;duration&#34;: &#34;00:00:42&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_custom_fixture.py::TestCustomFixture::test_using_hindi_lan_browser_context[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:42&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/test_custom_fixture.py::TestCustomFixture2::test_for_mobile_support[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_custom_fixture.py::TestCustomFixture2::test_for_mobile_support[chromium]&#34;, &#34;duration&#34;: &#34;00:00:17&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_custom_fixture.py::TestCustomFixture2::test_for_mobile_support[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:17&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:12:20 INFO    Got all links from the page\n\n&#34;}], &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_take_snapshot_instagram[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_take_snapshot_instagram[chromium]&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_take_snapshot_instagram[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_record_video_facebook[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_record_video_facebook[chromium]&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_record_video_facebook[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:12:36 INFO    Creating a new browser context with video recording.\n2024-10-14 16:12:36 INFO    Opening a new page for Facebook registration.\n2024-10-14 16:12:37 INFO    Navigating to &amp;#x27;https://www.facebook.com/register&amp;#x27;.\n2024-10-14 16:12:40 INFO    Filling out the registration form with user details.\n2024-10-14 16:12:42 INFO    Filled &amp;#x27;First name&amp;#x27; with &amp;#x27;shashwat&amp;#x27;.\n2024-10-14 16:12:43 INFO    Filled &amp;#x27;Surname&amp;#x27; with &amp;#x27;jian&amp;#x27;.\n2024-10-14 16:12:43 INFO    Selected &amp;#x27;Day&amp;#x27; as &amp;#x27;3&amp;#x27;.\n2024-10-14 16:12:44 INFO    Selected &amp;#x27;Month&amp;#x27; as &amp;#x27;May&amp;#x27;.\n2024-10-14 16:12:45 INFO    Selected &amp;#x27;Year&amp;#x27; as &amp;#x27;1997&amp;#x27;.\n2024-10-14 16:12:45 INFO    Selected &amp;#x27;Male&amp;#x27; as gender.\n2024-10-14 16:12:46 INFO    Filled &amp;#x27;Mobile number or email address&amp;#x27; with &amp;#x27;shashwat.jain@gmail.com&amp;#x27;.\n2024-10-14 16:12:48 INFO    Filled &amp;#x27;New password&amp;#x27;.\n2024-10-14 16:12:48 INFO    Clicking the &amp;#x27;Sign Up&amp;#x27; button.\n2024-10-14 16:12:48 INFO    Closing the page and stopping the video recording.\n2024-10-14 16:12:49 INFO    Video recording saved at: D:\\playwright_demo\\inputs_outputs\\screen_recordings\\0a7f66326ab7aaf6a8991827c1d9bebf.webm\n\n&#34;}], &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_tracing_facebook[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_tracing_facebook[chromium]&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_recording_tracing.py::TestScreenshortAndRecording::test_tracing_facebook[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:12:51 INFO    Starting trace for the Facebook registration page.\n2024-10-14 16:12:52 INFO    Navigating to the Facebook registration page.\n2024-10-14 16:12:55 INFO    Filling the registration form.\n2024-10-14 16:12:57 INFO    Filled &amp;#x27;First name&amp;#x27; with &amp;#x27;shashwat&amp;#x27;.\n2024-10-14 16:12:58 INFO    Filled &amp;#x27;Surname&amp;#x27; with &amp;#x27;jian&amp;#x27;.\n2024-10-14 16:12:59 INFO    Selected &amp;#x27;Day&amp;#x27; as &amp;#x27;3&amp;#x27;.\n2024-10-14 16:12:59 INFO    Selected &amp;#x27;Month&amp;#x27; as &amp;#x27;May&amp;#x27;.\n2024-10-14 16:13:00 INFO    Selected &amp;#x27;Year&amp;#x27; as &amp;#x27;1997&amp;#x27;.\n2024-10-14 16:13:00 INFO    Selected &amp;#x27;Male&amp;#x27; as gender.\n2024-10-14 16:13:02 INFO    Filled &amp;#x27;Mobile number or email address&amp;#x27; with &amp;#x27;shashwat.jain@gmail.com&amp;#x27;.\n2024-10-14 16:13:03 INFO    Filled &amp;#x27;New password&amp;#x27;.\n2024-10-14 16:13:03 INFO    Clicking the &amp;#x27;Sign Up&amp;#x27; button.\n2024-10-14 16:13:04 INFO    Stopped tracing and saved trace file at: inputs_outputs/traced_object/6617004587_2024-10-14_16-13-03.zip\n\n&#34;}], &#34;tests/test_working_with_frames.py::TestFrames::test_frame[chromium]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_working_with_frames.py::TestFrames::test_frame[chromium]&#34;, &#34;duration&#34;: &#34;00:00:18&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_working_with_frames.py::TestFrames::test_frame[chromium]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:18&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:13:05 INFO    Navigating to the page with the iframe\n2024-10-14 16:13:13 INFO    Locating the iframe and clicking on the content area inside the iframe\n2024-10-14 16:13:15 INFO    Filling the content area inside the iframe with text: &amp;#x27;My favorite tool is Playwright&amp;#x27;\n2024-10-14 16:13:15 INFO    Waiting for 6 seconds to observe changes\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_drag_and_drop&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_drag_and_drop&#34;, &#34;duration&#34;: &#34;00:00:08&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_drag_and_drop&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:08&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:13:28 INFO    Assert that column-a initially contains the text &amp;#x27;A&amp;#x27;\n2024-10-14 16:13:28 INFO    Locate column-a and drag it to column-b\n2024-10-14 16:13:29 INFO    Assert that after the drag, column-a now contains the text &amp;#x27;B&amp;#x27;, confirming the drop was successful\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_dynamic_table&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_dynamic_table&#34;, &#34;duration&#34;: &#34;00:00:06&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_dynamic_table&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:06&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;No log output captured.&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_input_type_element&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_input_type_element&#34;, &#34;duration&#34;: &#34;00:00:41&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_input_type_element&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:41&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:14:17 INFO    Verify that the input number is visible on the page\n2024-10-14 16:14:17 INFO    Assert that the output matches the inputs provided\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_login_and_assert_login&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_login_and_assert_login&#34;, &#34;duration&#34;: &#34;00:00:14&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_login_and_assert_login&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:14&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:14:30 INFO    Use Playwright&amp;#x27;s `expect` for assertions\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_logout_and_assert_logout&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_logout_and_assert_logout&#34;, &#34;duration&#34;: &#34;00:00:17&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_logout_and_assert_logout&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:17&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:14:45 INFO    Use Playwright&amp;#x27;s `expect` for assertions\n2024-10-14 16:14:47 INFO    Assert that the flash message indicating logout is visible\n2024-10-14 16:14:47 INFO    Assert that the logout confirmation text is visible\n2024-10-14 16:14:47 INFO    Assert that the flash message contains the expected text confirming logout\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_radio_buttons&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_radio_buttons&#34;, &#34;duration&#34;: &#34;00:00:12&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_radio_buttons&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:12&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:14:58 INFO    Assert that the &amp;#x27;Red&amp;#x27; radio button is checked\n2024-10-14 16:14:58 INFO    Assert that the &amp;#x27;Blue&amp;#x27; radio button is not checked\n2024-10-14 16:14:59 INFO    Assert that the &amp;#x27;Football&amp;#x27; radio button is checked\n\n&#34;}], &#34;tests/test_multiple_feature.py::TestFeature::test_working_with_dropdowns_list&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_multiple_feature.py::TestFeature::test_working_with_dropdowns_list&#34;, &#34;duration&#34;: &#34;00:00:21&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_multiple_feature.py::TestFeature::test_working_with_dropdowns_list&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:21&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:15:19 INFO    Click on the heading &amp;#x27;Country selection&amp;#x27; to bring it into view or interact with it\n2024-10-14 16:15:19 INFO    Select the country with the code &amp;#x27;IS&amp;#x27; (Iceland) from the country dropdown\n\n&#34;}], &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_download&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_download&#34;, &#34;duration&#34;: &#34;00:01:28&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_upload_and_download.py::TestUploadAndDownload::test_download&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:28&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:15:54 INFO    C:\\Users\\SHASHW~1.JAI\\AppData\\Local\\Temp\\playwright-artifacts-Qx74dk\\af1b0843-be7d-4592-9e80-0858713fff2d\n\n&#34;}], &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:16:59 INFO    Assert that the uploaded file name is displayed correctly\n2024-10-14 16:17:00 INFO    Verify that the &amp;#x27;File Uploaded!&amp;#x27; heading is visible after successful upload\n\n&#34;}], &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file_by_event_listener&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file_by_event_listener&#34;, &#34;duration&#34;: &#34;00:00:15&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_upload_and_download.py::TestUploadAndDownload::test_upload_a_file_by_event_listener&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:15&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:17:15 INFO    Assert that the uploaded file name is displayed correctly\n2024-10-14 16:17:15 INFO    Assert that the &amp;#x27;File Uploaded!&amp;#x27; heading is visible after successful upload\n\n&#34;}], &#34;tests/test_working_with_pages.py::TestMultiplePages::test_page&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_working_with_pages.py::TestMultiplePages::test_page&#34;, &#34;duration&#34;: &#34;00:00:13&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_working_with_pages.py::TestMultiplePages::test_page&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:13&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:17:25 INFO    Clicking on the search bar using aria-label locator\n2024-10-14 16:17:26 INFO    Filling the search bar with the query &amp;#x27;Python&amp;#x27;\n2024-10-14 16:17:27 INFO    Clicking on the first search result\n2024-10-14 16:17:27 INFO    Current URL: https://www.google.com/search?q=python+interview+questions&amp;amp;sca_esv=9c1db43462cf1df4&amp;amp;source=hp&amp;amp;ei=rvYMZ8eEI9OJ4dUPzLTm0A8&amp;amp;iflsig=AL9hbdgAAAAAZw0EvuY-kKz0Oyt-cvQ8Q1fdKmJwegGq&amp;amp;oq=Python&amp;amp;gs_lp=Egdnd3Mtd2l6IgZQeXRob24qAggFMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyCxAuGIAEGLEDGNQCMggQABiABBixA0ifClCwBViwBXABeACQAQCYAZIBoAGSAaoBAzAuMbgBAcgBAPgBAZgCAqACwQGoAgrCAhAQABgDGOUCGOoCGIwDGI8BwgIQEC4YAxjlAhjqAhiMAxiPAZgDJpIHAzEuMaAH6gY&amp;amp;sclient=gws-wiz\n2024-10-14 16:17:31 INFO    Closing the page\n\n&#34;}], &#34;tests/test_working_with_pages.py::TestMultiplePages::test_page2&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_working_with_pages.py::TestMultiplePages::test_page2&#34;, &#34;duration&#34;: &#34;00:00:16&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_working_with_pages.py::TestMultiplePages::test_page2&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:16&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:17:34 INFO    Navigating to Google&amp;#x27;s homepage on both pages\n2024-10-14 16:17:41 INFO    Clicking on the search bar on page1 and filling it with &amp;#x27;Python&amp;#x27;\n2024-10-14 16:17:42 INFO    Clicking on the first search result on page1\n2024-10-14 16:17:46 INFO    Closing page1\n\n&#34;}], &#34;tests/test_working_with_pages.py::TestMultiplePages::test_working_with_popup&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;tests/test_working_with_pages.py::TestMultiplePages::test_working_with_popup&#34;, &#34;duration&#34;: &#34;00:00:08&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;tests/test_working_with_pages.py::TestMultiplePages::test_working_with_popup&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:08&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;------------------------------ Captured log call -------------------------------\n2024-10-14 16:17:48 INFO    Navigating to the Texas GIS Popup Blocker Test site\n2024-10-14 16:17:52 INFO    Expecting a popup after clicking the &amp;#x27;RUN POPUP TEST&amp;#x27; button\n2024-10-14 16:17:53 INFO    Waiting for the URL to match the expected URL after popup\n2024-10-14 16:17:53 INFO    Closing the popup page\n2024-10-14 16:17:53 INFO    Final URL of the main page: https://www.rrc.texas.gov/resource-center/research/gis-viewer/gis-popup-blocker-test/#\n\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report_2024-10-14_16-11-12.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
