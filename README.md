@@ -121,6 +121,15 @@ Contains the list of required libraries and their versions.
    ```bash
    pip install -r requirements.txt
 
-2. create a .env fie in the root directory with your password information to run the tests with ease.
-- DEMO_USERNAME=practice
-- DEMO_PASSWORD=SuperSecretPassword!
+2. Create a .env fie in the root directory with your password information to run the tests with ease.
+  - DEMO_USERNAME=practice
+  - DEMO_PASSWORD=SuperSecretPassword!
+
+3. Command to view the traced test:
+  - `playwright show-trace <file_path>.zip`
+
+4. Command to run the individual test script:
+  - `pytest tests/test_complete_api_testing.py`
+
+5. Command to run the individual test:
+  - `pytest tests/test_complete_api_testing.py -k "login"`
